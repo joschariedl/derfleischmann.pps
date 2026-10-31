@@ -122,3 +122,11 @@ Manual profile base × rule target × game detection × manual-override-during-a
 × rapid open→close→open should all converge to the correct profile. In
 particular: set `power-saver` manually, open Firefox (rule → performance/balanced),
 close it, confirm it restores to `power-saver` and the icon follows near-real-time.
+## Repository workflow
+
+This plugin lives in its own private GitHub repository
+(`joschariedl/derfleischmann.pps`). Any change made here must be committed, pushed to that
+repository, and merged into the default branch (`main`) automatically — do
+not leave changes uncommitted or only local. Commit with a clear message, push
+the branch, and merge (fast-forward when possible) so the repository stays in
+sync with this working copy.
