@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "derfleischmann.pps",
+  "name": "Power Profile Switcher",
+  "version": "1.0.0",
+  "author": "derfleischmann",
+  "description": "Power Profile Switcher with per-app rules and game detection",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Power Profile Switcher",
+    "description": "Switch power profiles (powersave, balanced, performance) with auto-switch rules",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
