@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "derfleischmann.pps",
   "name": "Power Profile Switcher",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "derfleischmann",
   "description": "Power Profile Switcher with per-app rules and game detection",
   "kinds": [
