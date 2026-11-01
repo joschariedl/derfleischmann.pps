@@ -4,7 +4,7 @@ A Hyprland bar widget for Omarchy that manages the system power profile over
 D-Bus (requires `power-profiles-daemon`). It provides manual switching, per-app
 auto-switch rules, and reliable, list-free game detection.
 
-![Screenshot](screenshot.png)
+![Screenshot](preview.png)
 
 ## Features
 
